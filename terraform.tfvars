@@ -1,0 +1,9 @@
+aws_region    = "us-east-1"
+key_name      = "your-key-pair-name"
+vpc_id        = data.aws_vpc.cicd_vpc.id
+subnet_id     = "your-subnet-id"
+jenkins_ami   = "ami-0123456789abcdef0" # Replace with the actual Jenkins AMI
+maven_ami     = "ami-0123456789abcdef1" # Replace with the actual Maven AMI
+sonarqube_ami = "ami-0123456789abcdef2" # Replace with the actual SonarQube AMI
+gradle_ami    = "ami-0123456789abcdef3" # Replace with the actual Gradle AMI
+nexus_ami     = "ami-0123456789abcdef4" # Replace with the actual Nexus AMI
